@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\LOGITECH\Desktop\doctor\New folder\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2886018906.index
+2637397525.index
+83262491.index
+1045192383.index
+2940830928.index
+50340827.index

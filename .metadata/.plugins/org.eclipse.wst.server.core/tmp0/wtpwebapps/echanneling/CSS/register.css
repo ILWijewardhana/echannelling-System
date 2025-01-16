@@ -1,0 +1,360 @@
+@charset "ISO-8859-1";
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#logo{
+    margin: 1%;
+    position: absolute;
+    margin-top: -6%;
+    width: 6vw;
+    margin-left: 0%;
+
+}
+
+#title{
+    position: absolute;
+    width: 10vw;
+    margin-top: -4%;
+    margin-left: 5%;
+    margin-right: auto;
+    height: 5%;
+
+}
+
+a{
+    margin-right: 1.5%;
+    
+ }
+  /* navigation bar */
+  
+.topnav {
+    margin-top: 7%;
+    overflow: hidden;
+    background-color: #367297;
+  }
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.topnav a:hover {
+    background-color: #eeecec;
+    color: black;
+  }
+  
+.topnav a.active {
+    background-color: #134360;
+    color: white;
+  }
+
+
+/*search bar*/
+.search {
+    width: 14vw;
+    height: 4vh;
+    margin-left: 82%;
+    margin-top: -1.5%;
+    transform: translateY(-50%);
+    transition: 1s;
+  }
+
+.search input {
+    margin-bottom: 2%;
+    border-color: black;
+    background-color:#eeecec;
+    border: 2px solid ;
+    border-radius: 10px;
+    padding-left: 12%;
+    width: 100%;
+    height: 100%;
+    font-size: 1vw;
+    transition: 1s;
+    color: black;
+  }
+.search input::placeholder {
+    
+    font-size: .9vw;
+  }
+
+.search input::-ms-input-placeholder {
+    color: grey;
+  }
+
+.search img {
+    width: .9vw;
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+.search input[type=submit] {
+    visibility: hidden;
+  }
+
+  /* registration form */
+#register {
+    border: 2px solid ;
+    border-color: #134360;
+    border-radius: 10px;
+    width: 70%;
+    height: 100vh;
+    position: relative;
+    margin-top: 4%;
+    left: 50%;
+    transform: translate(-50%);
+    transition: 1s;
+  }
+  #register h1 {
+    font-size: 3vw;
+    text-align: center;
+    transition: 1s;
+  }
+    .fnameLable, .lnameLable, .GenderLable,.AddressLable,.CountryLable,.NumberLable,.Email,.Password,.Rpassword{
+    margin-left: 5%;
+    font-size: 1.3vw;
+    transition: 1s;
+  }
+  .dateLable {
+    margin-left: 5.5%;
+    font-size: 1.4vw;
+    transition: 1s;
+  }
+  .terms {
+    border: 1px solid black;
+  }
+  
+  #fName, #lName, #gender, #date, #month, #year,#address,#country,#number,#email,#password,#rPassword{
+    background-color: transparent;
+    transition: 1s;
+    border: 2px solid;
+    outline: none;
+    width: 30%;
+    border-radius: 10px;
+    font-size: 1.2vw; 
+    padding: 1.2%;
+  }
+  #gender{
+    margin-left: 3%;
+    width: 22.5vw;
+
+  }
+  
+  /* create a DOC */
+  #date {
+    margin-left: 4%;
+  }
+  #date, #month {
+    width: 9%;
+  }
+  #year {
+    width: 10%;
+    
+  }  
+  #address{
+    margin-left: 2.5%;
+  }
+  #country{
+    margin-left: 2%;
+  }
+  #number {
+    margin-left: .8%;
+  }
+  #email{
+    margin-left: 3.5%; 
+  }
+  #password{
+    margin-left: 1%; 
+  }
+  #rpassword{
+    margin-left: 20%; 
+  }
+  #termsbox{
+      transition: 1s;
+      border: 1px solid ;
+      outline: none;
+      width: 3vw;
+      height: 3vh;
+      top: 40%;
+      margin-left: 30%;
+  }
+  #checkbox2{
+    transition: 1s;
+    border: 1px solid;
+    outline: none;
+    width: 3vw;
+    height: 3vh;
+    top: 40%;
+    margin-left: 30%;
+  }
+  
+  /* Creat a button */
+  #creat{
+    background-color: gray;
+    position: absolute;
+    transition: 1s;
+    margin-top: 6%;
+    width: 9vw;
+    height: 6vh;
+    border-style: none;
+    border-radius: 15px;
+    font-size: 1.2vw;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  #creat:hover {
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 3px var);
+  }
+  /* sign-in account */
+  .account{
+    position: absolute;
+    font-size: 1vw;
+    left: 35%;
+    margin-top: 10%;
+    font-size: 1.3vw;
+  } 
+  
+  #sign{
+    position: absolute;
+    transition: none;
+    margin-top: 10%;
+    left: 58%;
+    font-size: 1.3vw;
+    cursor: pointer;
+    color: #000;
+  }
+  #sign:hover {
+    font-weight: bold;
+    transition: none;
+  }
+  
+   /* footer */
+
+footer {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    padding: 5px 5px 0px 5px;
+    left: 0px;
+    right: 0px;
+    bottom: -10px;
+    margin-top: 8vh;
+    overflow: hidden;
+    width: 100%;
+    background-color: #367297;
+    height: 30vh;
+  }
+  .footerTable td {
+    font-size: 105%;
+    font-size: 1vw;
+    margin-top: 5vh;
+    color: rgb(197, 193, 193);
+  }
+  .footerTable tr td {
+    text-align: center;
+    margin-top: 4vh;
+  }
+  .footerTable td:first-child {
+    width: 1%;
+    white-space: nowrap;
+  }
+  .socials {
+    position: absolute;
+    margin-top: -2.1%;
+    margin-left: 4%;
+  }
+  .fb {
+    margin-top: 10%;
+    width: 70%;
+    border-radius: 5px;
+  }
+  .insta {
+    margin-top: 10%;
+    width: 70%;
+  }
+  .yt {
+    margin-top: 10%;
+    width: 80%;
+  }
+  .tiktok {
+    margin-top: 10%;
+    width: 70%;
+    border-radius: 5px;
+  }
+  .footerTableHover img:hover {
+    transform: scale(110%);
+    filter: drop-shadow(0px 0px 1px #000);
+  }
+  .address {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .address h2 {
+    margin-top: 25%;
+    font-size: 1.5vw;
+    color:whitesmoke;
+  }
+  .address p {
+    font-size: 1vw;
+    color: rgb(197, 193, 193);
+  }
+  .hyperLinks {
+    position: absolute;
+    font-size: .8vw;
+    top: 90%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+  }
+  .hyperLinks p a {
+    text-decoration: none;
+    color: rgb(197, 193, 193);
+  }
+  .hyperLinks p a:hover {
+    color:black;
+  }
+  .hyperLinks .currentFooter {
+    font-weight: bold;
+  }
+  .hyperLinks .currentFooter:hover {
+    cursor: default;
+  }
+  .bottomLogo {
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    width: 15vw;
+    height: fit-content;
+    top: 50%;
+    transform: translate(0, -45%);
+  }
+  .bottomLogo img {
+    position: relative;
+    width: 40%;
+    margin-top: 35%;
+    left: 35%;
+  }
+  .bottomLogo p {
+    position: relative;
+    font-size: .7vw;
+    text-align: center;
+    margin-top: -2%;
+    color: rgb(197, 193, 193);
+    left: 5%;
+  }
+
+ 
+

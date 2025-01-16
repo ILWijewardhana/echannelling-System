@@ -1,0 +1,545 @@
+@charset "ISO-8859-1";
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#logo{
+    margin: 1%;
+    position: absolute;
+    margin-top: -1%;
+    width: 6vw;
+    margin-left: 0%;
+
+}
+
+#title{
+    position: absolute;
+    width: 10vw;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: auto;
+    height: 5%;
+
+}
+
+.login{
+    margin-top: 1.5%;
+}
+
+
+#appoinment{
+    margin-left: 80%;
+    font-size: 2.5vh;
+    color: #367297;
+  }
+
+#appoinment:hover{
+    background-color: #367297;
+    color: aliceblue;
+    border-radius: 5px;
+    transition: all;
+    height: 12%;
+    width: 8%;
+  }
+  
+
+a{
+    margin-right: 1.5%;
+    
+ }
+
+#singin button{
+    color: rgb(255, 253, 253);
+    border-radius: 8px;
+    width: 6%;
+    height: 5%;
+    background-color: #134360;
+    font-size: 2.5vh;
+}
+
+#singin button:hover {
+    transition: .4s;
+    transform: scale(105%);
+    
+  }
+
+  /* navigation bar */
+  
+.topnav {
+    margin-top: 3%;
+    overflow: hidden;
+    background-color: #367297;
+  }
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.topnav a:hover {
+    background-color: #eeecec;
+    color: black;
+  }
+  
+.topnav a.active {
+    background-color: #134360;
+    color: white;
+  }
+
+
+/*search bar*/
+.search {
+    width: 14vw;
+    height: 4vh;
+    margin-left: 82%;
+    margin-top: -1.5%;
+    transform: translateY(-50%);
+    transition: 1s;
+  }
+
+.search input {
+    margin-bottom: 2%;
+    border-color: black;
+    background-color:#eeecec;
+    border: 2px solid ;
+    border-radius: 10px;
+    padding-left: 12%;
+    width: 100%;
+    height: 100%;
+    font-size: 1vw;
+    transition: 1s;
+    color: black;
+  }
+.search input::placeholder {
+    
+    font-size: .9vw;
+  }
+
+.search input::-ms-input-placeholder {
+    color: grey;
+  }
+
+.search img {
+    width: .9vw;
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+.search input[type=submit] {
+    visibility: hidden;
+  }
+
+  /* slideshow */
+
+.slideshow {
+    margin-left: 7%;
+    margin-top: 4%;
+    width: 85%;
+    height: 70vh;
+    overflow: hidden;
+    filter: drop-shadow(0px 0px 5px #000);
+  }
+  .slideshow img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+
+  /* heder1 */
+  #access{
+    margin-top: 5%;
+    margin-left: 7%;
+    font-size: 92%;
+    margin-bottom: -3%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 30%;
+    color:#134360 ;
+  }
+
+/*channeling doctor & other button */
+#Doctor {
+  position: absolute;
+  margin-left:7%;
+  margin-top: 4%;
+  width: 27%;
+  height: 15%;
+  border-style: solid;
+  border-color: #e3f1fb;
+  background-color: #e3f1fb;
+  border-radius: 10px;
+  
+}
+
+#doctor img{
+   width: 20%;
+   height: 15%;
+   margin-top:4%;
+   margin-left: 4%; 
+}
+
+#Doctor:hover {
+    transition: .4s;
+    transform: scale(102%);
+    background-color: #367297;
+  }
+
+#Doctor h1{
+    margin-top: -19%;
+    margin-left: 33%;
+    font-size: 2.7vh;
+    font-family: 'Courier New', Courier, monospace;
+    color:black
+}
+
+#Doctor p{
+    margin-top: -2%;
+    margin-left: 33%;
+    font-size: 2.3vh;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+}
+
+#Doctor h1:hover{
+    color: #e3f1fb;
+} 
+
+#Doctor p:hover{
+    color: #e3f1fb;
+} 
+
+
+/* Consultation div */
+#Consultation {
+	position: absolute;
+  margin-top: 4%;
+  width: 27%;
+  height: 13%;
+  border-style: solid;
+  border-color: #e3f1fb;
+  background-color: #e3f1fb;
+  border-radius: 10px;
+  padding-bottom: 1%;
+  left: 35.8%;
+  
+}
+
+#consultation img {
+   width: 21%;
+   height: 15.5%;
+   margin-top:4%;
+   margin-left: 4%;
+}
+#Consultation:hover {
+  transition: .4s;
+  transform: scale(102%);
+  background-color: #367297;
+}
+
+#Consultation h1{
+    margin-top: -19%;
+    margin-left: 33%;
+    font-size: 2.7vh;
+    font-family: 'Courier New', Courier, monospace;
+    color:black
+}
+
+#Consultation p{
+    margin-top: -2%;
+    margin-left: 33%;
+    font-size: 2.3vh;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+}
+
+#Consultation h1:hover{
+    color: #e3f1fb;
+} 
+
+#Consultation p:hover{
+    color: #e3f1fb;
+} 
+
+
+/* License div */
+
+#License{
+position: absolute;
+  width: 27%;
+  height: 13%;
+  margin-top: 4%;
+  border-style: solid;
+  border-color: #e3f1fb;
+  background-color: #e3f1fb;
+  border-radius: 10px;
+  padding-bottom: 1%;
+  left: 64.5%;
+}
+
+#license img {
+    width: 20%;
+    height: 15%;
+    margin-top:4%;
+    margin-left: 4%;
+}
+
+#License:hover {
+    transition: .4s;
+    transform: scale(102%);
+    background-color: #367297;
+}
+
+#License h1{
+    margin-top: -19%;
+    margin-left: 31%;
+    font-size: 2.7vh;
+    font-family: 'Courier New', Courier, monospace;
+    color:black
+}
+
+#License p{
+    margin-top: -2%;
+    margin-left: 31%;
+    font-size: 2.3vh;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+}
+
+#License h1:hover{
+    color: #e3f1fb;
+} 
+
+#License p:hover{
+    color: #e3f1fb;
+} 
+
+
+
+/* Download mobile app */
+#App{
+    position: absolute;
+    margin-left:1.4%;
+    margin-top: 16%;
+    width: 97%;
+    height: 45%;
+    border-style: solid;
+    border-color: rgb(244, 239, 239);
+    background-color:rgb(238, 237, 237);
+    border-radius: 10px;
+    padding-bottom: 1%;
+
+}
+#downloadApp {
+    position: relative;
+    right: 1%;
+    width: 90%;
+    height: 30vh;
+  }
+  #downloadApp h2 {
+    font-size: 2.3vw;
+    margin-left: 7%;
+    color: #134360;
+    padding-bottom: 1%;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .appstore {
+    position: absolute;
+    top: 50%;
+    width: 17%;
+    padding-left: 7%;
+    filter: drop-shadow(0px 0px .5px var);
+  }
+  .playstore {
+    position: absolute;
+    width: 17%;
+    margin-top: 9%;
+    padding-left: 5.5%;
+    filter: drop-shadow(0px 0px .5px var);
+  }
+  .playstore:hover {
+    cursor: pointer;
+    transform: scale(105%);
+  }
+  .appstore:hover {
+    cursor: pointer;
+    transform: scale(105%);
+  }
+
+  #phone{
+    width: 60%;
+    height: 130%;
+    margin-left: 30%;
+    margin-top: -5%;
+
+  }
+
+
+  /* services div */
+
+#services {
+    position: absolute;
+    margin-left: 17%;
+    margin-top: 48%;
+    width: 65%;
+    height: 35%;
+    border-style: solid;
+    border-color: rgb(238, 237, 237);
+    border-radius: 13px;
+    padding-bottom: 1%;
+    
+  }
+  #services h1 {
+    font-size: 2.3vw;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #134360;
+    padding-top: -1%;
+    margin-top: -7%;
+  }
+  #services p {
+    font-size: 2.3vh;
+    margin-left: 29%;
+    padding: 3%;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -24.5%;
+    text-align: justify;
+  }
+  #service1 {
+    display: block;
+    width: 26%;
+    height: 31vh;
+    border-radius: 12px;
+    margin-left: 3%;
+    margin-top: 5.2%;
+    filter: drop-shadow(0px 0px 3px #000);
+  }
+
+
+  /* footer */
+
+footer {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    padding: 5px 5px 0px 5px;
+    left: 0px;
+    right: 0px;
+    bottom: -10px;
+    margin-top: 145vh;
+    overflow: hidden;
+    width: 100%;
+    background-color: #367297;
+    height: 30vh;
+  }
+  .footerTable td {
+    font-size: 105%;
+    font-size: 1vw;
+    margin-top: 5vh;
+    color: rgb(197, 193, 193);
+  }
+  .footerTable tr td {
+    text-align: center;
+    margin-top: 4vh;
+  }
+  .footerTable td:first-child {
+    width: 1%;
+    white-space: nowrap;
+  }
+  .socials {
+    position: absolute;
+    margin-top: -2.1%;
+    margin-left: 4%;
+  }
+  .fb {
+    margin-top: 10%;
+    width: 70%;
+    border-radius: 5px;
+  }
+  .insta {
+    margin-top: 10%;
+    width: 70%;
+  }
+  .yt {
+    margin-top: 10%;
+    width: 80%;
+  }
+  .tiktok {
+    margin-top: 10%;
+    width: 70%;
+    border-radius: 5px;
+  }
+  .footerTableHover img:hover {
+    transform: scale(110%);
+    filter: drop-shadow(0px 0px 1px #000);
+  }
+  .address {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .address h2 {
+    margin-top: 25%;
+    font-size: 1.5vw;
+    color:whitesmoke;
+  }
+  .address p {
+    font-size: 1vw;
+    color: rgb(197, 193, 193);
+  }
+  .hyperLinks {
+    position: absolute;
+    font-size: .8vw;
+    top: 90%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+  }
+  .hyperLinks p a {
+    text-decoration: none;
+    color: rgb(197, 193, 193);
+  }
+  .hyperLinks p a:hover {
+    color:black;
+  }
+  .hyperLinks .currentFooter {
+    font-weight: bold;
+  }
+  .hyperLinks .currentFooter:hover {
+    cursor: default;
+  }
+  .bottomLogo {
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    width: 15vw;
+    height: fit-content;
+    top: 50%;
+    transform: translate(0, -45%);
+  }
+  .bottomLogo img {
+    position: relative;
+    width: 40%;
+    margin-top: 35%;
+    left: 35%;
+  }
+  .bottomLogo p {
+    position: relative;
+    font-size: .7vw;
+    text-align: center;
+    margin-top: -2%;
+    color: rgb(197, 193, 193);
+    left: 5%;
+  }
+
+ 

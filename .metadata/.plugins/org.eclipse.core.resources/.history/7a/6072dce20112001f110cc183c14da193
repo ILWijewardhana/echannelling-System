@@ -1,0 +1,95 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="CSS/cusSupporter.css">
+<link rel="stylesheet" href = "CSS/css/bootstrap.min.css">
+<meta charset="ISO-8859-1">
+
+</head>
+<body>
+
+<!--login & appoinment -->
+        <div class="login">
+            <img src="Images/logo.png" id="logo" alt="channel logo">
+            <img src="Images/title1.png" id="title" alt="channel title">
+            <a href="appoinment.html" id="appoinment">My Appointment</a>
+            <a href="singin.html" id="singin" ><button>Sign in</button></a>
+        </div>
+
+
+<!--navigation bar-->
+        <div class="navBarDiv">
+            <div class="topnav">
+            <a class="active" href="Home.jsp">Home</a>
+            <a href="aboutUs.jsp">About Us</a>
+            <a href="ourfacility.jsp">Our Facilities</a>
+            <a href="ContactUS.jsp">Contact Us</a>
+        </div>
+
+
+<!--search bar-->
+        <div class="search">
+            <form style="height: 100%;" onsubmit="return false">
+              <input type="search" placeholder="Search in our website..." id="searchBar" onsearch="search()">
+              <img src=" Images/search.png"> 
+              <script src=" JS/searchBar.js"></script>
+              <input type="submit" id="searchSubmit">
+            </form>
+        </div>
+
+<h1 class="topic text-center">Do You Want a Help?</h1> <br>
+
+<div class="container">
+ <form method = "post" action ="addFeedback">
+  <div class="mb-3">
+   <label for="formGroupExampleInput" class="form-label">Name</label>
+   <input type="text" class="form-control" id="formGroupExampleInput" name="name" placeholder="Saman Perera">
+  </div>
+  <div class="mb-3">
+   <label for="formGroupExampleInput2" class="form-label">Email</label>
+   <input type="text" class="form-control" id="formGroupExampleInput2" name="email" placeholder="name@example.com">
+  </div>
+  <div class="mb-3">
+   <label for="formGroupExampleInput2" class="form-label">Message</label>
+   <input type="text" class="form-control" id="formGroupExampleInput2" name="feedback" placeholder="Your Message">
+  </div>
+   <button type="submit" class="btn btn-success">Submit</button>
+   <a href = "myFeedback.jsp">
+   <button type="submit" class="btn btn-danger">My Message</button>
+   </a>
+ </div>
+
+</form>
+
+<!--footer-->
+          <footer>
+            <br><br><br><br>
+            
+        
+            <div class="address">
+              <h2>Healthgrade (pvt) Ltd</h2>
+              <p>Street: 568 Havelock Road,<br>06th Lane, Colombo</p>
+            </div>
+        
+            <div class="hyperLinks">
+              <p>
+                <a href="aboutUs.jsp">About Us</a> |
+                <a href="contactUs.jsp">Contact Us</a> |
+                <a href="FAQ.jsp">FAQ</a> |
+                <a href="customerSupport.jsp">Customer Support</a> | 
+                <a href="CustomerFeedback.jsp">Customer Feedback</a>
+              </p>
+            </div>
+            <br><br>
+        
+            <div class="bottomLogo">
+              <img src="Images/logo.png">
+              <p>&copy; 2023 Helthgrade. All rights reserved.</p>
+            </div>
+        
+          </footer>
+
+</body>
+</html>

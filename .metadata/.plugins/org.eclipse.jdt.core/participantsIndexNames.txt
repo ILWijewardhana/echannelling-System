@@ -1,0 +1,7 @@
+INDEX VERSION 1.134
+C:\Users\LOGITECH\Desktop\doctor\New folder\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2127941390.index
+\echanneling\src\main\java
+C:\Users\LOGITECH\Desktop\doctor\New folder\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3286314169.index
+\echanneling\src\main\java
+C:\Users\LOGITECH\Desktop\doctor\New folder\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\803130592.index
+\echanneling\src\main\java
